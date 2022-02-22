@@ -1,0 +1,35 @@
+.showpage-video-container {
+    /* display: flex; */
+    padding-top: 62px;
+    padding-bottom: 50px;
+}
+
+.video-viewport-container {
+    display: flex;
+    /* height: 20%; */
+    height: 540px !important;
+    background-color: #0d171d;
+    flex-direction: column;
+}
+
+.video-viewport {
+    display: flex;
+    justify-content: center;
+    outline: hidden;
+    height: 100%;
+}
+
+.video-player {
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 950px !important;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.video-player:focus {
+    outline: none;
+}
+
+
